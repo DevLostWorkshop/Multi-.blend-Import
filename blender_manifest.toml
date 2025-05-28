@@ -1,0 +1,25 @@
+# Defining the add-on's identity and metadata
+schema_version = "1.0.0"
+id = "multi_blend_import"
+version = "1.5.0"
+name = "Multi-.blend Import"
+tagline = "Import all objects from multiple selected .blend files"
+maintainer = "The Supreme Sage"
+
+# Optional link to documentation, support, source files, etc
+website = "https://github.com/DevLostWorkshop/Multi-.blend-Import/"
+
+type = "add-on"
+tags = ["Import", "Workflow", "Assets"]
+blender_version_min = "3.0.0"
+license = ["SPDX:GPL-2.0-or-later"]
+copyright = ["2025 The Supreme Sage"]
+website = "https://github.com/DevLostWorkshop/Multi-.blend-Import"
+
+# Specifying where the add-on code resides
+[modules]
+main = "multi_blend_import"
+
+# Permissions required by the add-on
+[permissions]
+files = "Read and append .blend files from the user's filesystem"
